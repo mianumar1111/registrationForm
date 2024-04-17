@@ -1,0 +1,391 @@
+* {
+    border: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+}
+
+
+.form {
+    padding-top: 0;
+    margin-top: 2%;
+    border-radius: 10px;
+    width: 60%;
+    min-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.innerForm {
+    padding: 30px;
+}
+
+.form div {
+    margin-bottom: 65px;
+}
+
+.heading {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1px;
+}
+
+input {
+    padding-left: 22PX;
+    background-color: rgba(0, 0, 0, 0.103);
+    color: #555;
+    border-radius: 5px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 1%;
+    font-size: 18px;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+}
+
+.label {
+    text-align: left;
+    width: 125px;
+    font-weight: bold;
+    border: none;
+    padding-top: 20px;
+
+}
+
+.cusLabel {
+    width: 100%;
+    padding-top: 0px;
+}
+.custLab{
+    margin-bottom: 0% !important;
+}
+
+.btn, .updateBtn {
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #eb3746;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.updateBtn{
+    position: relative;
+    left: -27%;
+    /* top: 1%; */
+}
+
+.unhide{
+    visibility:visible;
+}
+.hide{
+    visibility: hidden;
+
+}
+
+.data {
+    display: flex;
+    /* align-items: center; */
+    padding-left: 10px;
+    height: 20px;
+    margin-bottom: 40px;
+}
+
+.firstNamePh {
+    position: absolute;
+    text-transform: capitalize;
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 65px;
+    left: 31%;
+}
+
+.lastNamePh {
+    position: absolute;
+    text-transform: capitalize;
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 65px;
+    /* top: 31%; */
+    left: 55%;
+
+}
+
+.innerPhone {
+    display: flex;
+    width: 100%;
+}
+
+.inp {
+    position: absolute;
+    left: 48%;
+
+}
+
+.fullWidInput {
+    width: 98%;
+}
+
+.areaCodePh {
+    position: absolute;
+    text-transform: capitalize;
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 65px;
+    /* top: 63%; */
+    left: auto;
+}
+
+.phonePh {
+    position: absolute;
+    text-transform: capitalize;
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 65px;
+    /* top: 63%; */
+    left: 43%;
+}
+
+
+.country {
+    margin-top: 35px;
+}
+
+.subject {
+    margin-top: 90px;
+}
+
+.selectOption {
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 22%;
+    height: 25px;
+    display: grid;
+    align-items: start;
+    /* padding-top: 20px; */
+}
+
+.subLabel{
+    width: 103px;
+    padding-top: 5px;
+}
+.phoneLab{
+    width: 120px;
+}
+.nameLab{
+    width: 135px;
+}
+
+.radioContainer {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    position: inherit;
+    margin-left: 1%;
+    margin-bottom: 0% !important;
+}
+
+.radioContainer label {
+    margin-right: 14px;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+table {
+    border: 2px solid #ddd;
+    width: 70%;
+    margin-left: 20px;
+}
+
+table th,table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+table td {
+    padding-left: 10px;
+    text-align: left;
+    background-color: transparent;
+    color: black;
+}
+
+.areaCode {
+    width: 20%;
+}
+
+.PhoneInput {
+    width: 80%;
+}
+
+.editBtn,.removeBtn{
+    margin: 1px;
+    height: 35px;
+    width: 50%;
+    background-color: #ff808b;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 05px;
+    margin: 5px;
+}
+
+.editBtn:hover, .removeBtn:hover{
+    background-color: #ffa4ac;
+}
+
+.btnCell{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+}
+
+
+@media(max-width: 767px) {
+
+    .form {
+        padding-top: 0;
+        margin-top: 10%;
+        border-radius: 10px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+    .data {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 10px;
+        height: 10%;
+        margin-bottom: 40px;
+    }
+
+    .lastNameinp {
+        width: 98%;
+        margin-top: 4%;
+        word-wrap: break-word;
+    }
+
+    .firstNameinp {
+        width: 98%;
+        margin-top: 0%;
+    }
+
+    .firstNamePh {
+        position: inherit;
+        text-transform: capitalize;
+        color: #999;
+        font-size: 14px;
+        margin: 0;
+        margin-top: 4px;
+        left: 32%;
+    }
+
+    .lastNamePh {
+        position: inherit;
+        text-transform: capitalize;
+        color: #999;
+        font-size: 14px;
+        margin: 0;
+        margin-top: 4px;
+        left: 56%;
+
+    }
+
+    .form div {
+        margin-bottom: 30px;
+    }
+
+    .country {
+        margin-top: 10px;
+    }
+
+    .areaCode {
+        width: 20%;
+        margin-top: 0%;
+    }
+
+    .PhoneInput {
+        margin-top: 0%;
+        width: 80%;
+        margin-right: 0px  ;
+    }
+
+
+
+    .phone {
+        display: flex;
+    }
+
+    .radioContainer {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+    .radioContainer {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        padding-left: 2px;
+        margin: 0% !important;
+    }
+
+    .selectOption {
+        font-weight: 400;
+        font-size: 14px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: fit-content;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .innerPhone {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .phonePH {
+        position: absolute;
+        text-transform: capitalize;
+        color: #999;
+        font-size: 14px;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 65px;
+        left: 30%;
+    }
+    .label {
+        margin-bottom: 1%;    
+    }
+    
+}

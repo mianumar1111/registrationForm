@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="Script.js" defer></script>
+  <title>Registration Form</title>
+</head>
+
+<body>
+
+  <div class="form">
+    <div class="heading">
+      <h2>Event Registration Form</h2>
+      <br />
+    </div>
+    <div class="innerForm">
+      <div class="name data">
+        <label class="label nameLab" for="Name">Name</label>
+        <input class="firstNameinp" type="text" id="fName" placeholder=" " />
+        <label class="firstNamePh">first name</label>
+        <input class="lastNameinp" type="text" id="lName" placeholder=" " />
+        <label class="lastNamePh">Last Name</label>
+      </div>
+      <div class="country data">
+        <label class="label" for="Country">Country</label>
+        <input class="fullWidInput" type="text" id="country" placeholder=" " />
+      </div>
+
+      <div class="email data">
+        <label class="label" for="Email">Email</label>
+        <input class="EInput fullWidInput" type="text" id="email" placeholder=" " />
+      </div>
+
+      <div class="phone data">
+        <label class="label phoneLab" for="name">Phone</label>
+        <div class="innerPhone">
+          <input class="areaCode" type="text" id="areaCode" placeholder=" " />
+          <input class="PhoneInput" type="text" id="Phone" placeholder=" " />
+          <label class="areaCodePh">Area Code</label>
+          <label class="phonePh">Phone</label>
+        </div>
+      </div>
+
+      <div class="subject data">
+        <label class="label subLabel" for="Subject">Subject</label>
+
+        <select class="selectOption" name="subject" id="subject">
+          
+          <option value="Choose Option">Choose Option</option>
+          <option value="Option1">Option1</option>
+          <option value="Option2">Option2 </option>
+        </select>
+      </div>
+      <div class="data custLab">
+        <label class="label cusLabel" for="customer">Are you an existing customer?</label>
+      </div>
+      <div class="radioContainer">
+        <input type="radio" id="yes" name="choice" value="Yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="No" name="choice" value="No">
+        <label for="no">No</label>
+      </div>
+      <button class="btn">Register</button>
+      <button class="updateBtn hide">Update</button>
+    </div>
+  </div>
+
+  <hr>
+  <div class="tableContainer">
+  </div>
+</body>
+
+</html>
